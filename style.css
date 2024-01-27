@@ -32,8 +32,10 @@ ul{
     gap:16px;
 }
 
+
 a {
     text-decoration: none;
+    color: #f9faf8;
 }
 
 .header {
@@ -183,4 +185,13 @@ h2 {
 
 .bubble button{
     border:#f9faf8 solid 1px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px 0;
 }

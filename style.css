@@ -75,6 +75,8 @@ h1 {
 button {
     background-color:#3882f6;
     padding:2px 8px;
+    border-radius:5px;
+    color:#f9faf8;
     
 
 }
@@ -126,4 +128,59 @@ h2 {
 .text {
     font-size: 18px;
     margin: 6px 0;
+}
+
+.quotes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding:100px 300px;
+
+}
+
+.quotes .quote {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: lighter;
+    font-style: italic;
+
+
+}
+
+.signature {
+    align-self: flex-end;
+
+}
+
+.bot {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding: 100px 220px;
+   color:#f9faf8;
+}
+.bubble {
+    display:flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    align-items: center;
+    padding: 50px;
+    gap:75px;
+    border-radius: 10px;
+
+}
+
+.bubble-left{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.action {
+    font-weight: 700;
+}
+
+.bubble button{
+    border:#f9faf8 solid 1px;
 }
